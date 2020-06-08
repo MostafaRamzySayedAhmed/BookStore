@@ -1,0 +1,1322 @@
+/* Starting The General Rules */
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+ol, ul
+{
+    margin: 0px;
+}
+
+/* Starting The Navigation Rules */
+
+.navigation
+{
+    margin: 0px 100px;
+    border-radius: 10px;
+    padding: auto 50px;
+    overflow: hidden;
+}
+
+.navigation .container
+{
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.navigation ul
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation ul li
+{
+    margin: auto 4px;
+}
+
+.navigation ul li a
+{
+    color: #888!important;
+    font-size: 16px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    transition: all 500ms;
+}
+
+.navigation ul li a:hover
+{
+    color: #DDD!important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation ul li a i, .navigation ul p i
+{
+    font-size: 15px;
+    color: #EEE;
+    margin-right: 5px;
+}
+
+.navigation ul p
+{
+    margin-left: 60px;
+    color: #FFF!important;
+    font-size: 16px;
+}
+
+/* This Style Will Be Applied If The Screen Has A Maximum Width Of 991px */
+@media screen and (max-width: 768px)
+{ 
+.navigation ul p 
+    {
+        margin-left: 20px;
+    }
+}
+
+.slider
+{
+    margin: 0px 100px;
+    background-image: url("../images/slider.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+/* Starting The login Rules */
+
+.login
+{
+    margin-top: 25px;
+}
+
+.login .heading
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.login input[type=submit]
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 500ms;
+}
+
+.login input[type=submit]:hover
+{
+    font-size: 21px;
+}
+
+.login input
+{
+    margin-bottom: 15px;
+}
+
+/* Starting The About Rules */
+
+.about
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about .heading
+{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Starting The Dashboard Rules */
+
+.heading_statics
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.show_statics .panel
+{
+    background-color: #D4D4D4!important;
+}
+
+.show_statics .panel i
+{
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.show_statics .panel span
+{
+    font-size: 19px;
+    font-weight: bold;
+    color: #393939;
+}
+
+.show_statics
+{
+    margin-top: 20px;
+    background-color: #EEE;
+    margin-bottom: 0px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+
+.show_statics .first
+{
+    background-color: #FF0004;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.show_statics .first h2
+{
+    color: #EEE;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.show_statics .first i
+{
+    font-size: 50px;
+    color: #EEE;
+    margin-right: 5px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 68px;
+}
+
+.show_statics .first a
+{
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.show_statics .first span
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #EEE;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.show_statics .first span:hover
+{
+    background-color: #EEE;
+    font-size: 40px;
+    color: #888;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.show_statics .second
+{
+    background-color: #FF0004;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.show_statics .second h2
+{
+    color: #EEE;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.show_statics .second i
+{
+    font-size: 50px;
+    color: #EEE;
+    margin-right: 5px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 68px;
+}
+
+.show_statics .second a
+{
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.show_statics .second span
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #EEE;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.show_statics .second span:hover
+{
+    background-color: #EEE;
+    font-size: 40px;
+    color: #888;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.show_statics .third
+{
+    background-color: #FF0004;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.show_statics .third h2
+{
+    color: #EEE;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.show_statics .third i
+{
+    font-size: 50px;
+    color: #EEE;
+    margin-right: 5px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 57px;
+}
+
+.show_statics .third a
+{
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.show_statics .third span
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #EEE;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.show_statics .third span:hover
+{
+    background-color: #EEE;
+    font-size: 40px;
+    color: #888;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.show_statics .fourth h2
+{
+    color: #EEE;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.show_statics .fourth
+{
+    background-color: #FF0004;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.show_statics .fourth i
+{
+    font-size: 50px;
+    color: #EEE;
+    margin-right: 5px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 68px;
+}
+
+.show_statics .fourth a
+{
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.show_statics .fourth span
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #EEE;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.show_statics .fourth span:hover
+{
+    background-color: #EEE;
+    font-size: 40px;
+    color: #888;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+.latest
+{
+    background-color: #EDEDED;
+    height: 770px;
+    margin-top: 50px;
+}
+
+.latest .panel
+{
+    margin-top: 25px;
+    background-color: #DCDCDC; 
+}
+
+.latest .panel .panel-heading
+{
+    background-color: #888;
+}
+
+.latest .panel .panel-heading i
+{
+    font-size: 20px;
+    margin-right: 3px;
+    color: #FFF;
+}
+
+.latest .panel .panel-heading span
+{
+    font-size: 18px;
+    color: #EEE;
+    font-weight: bold;
+}
+
+.latest .row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.latest .first
+{
+    margin-top: 20px;
+}
+
+.latest .first .latest_users ul
+{
+    list-style-type: square;
+}
+
+.latest .first .latest_users ul li
+{
+    font-size: 20px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+}
+.latest .first .latest_users ul li span
+{
+    font-size: 18px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.latest .first .latest_users ul li a
+{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.latest .first .latest_users ul li a:hover
+{
+    font-size: 16px;
+}
+
+.latest .second
+{
+    margin-top: 20px;
+}
+
+.latest .second .latest_books ul
+{
+    list-style-type: square;
+}
+
+.latest .second .latest_books ul li
+{
+    font-size: 20px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+}
+.latest .second .latest_books ul li span
+{
+    font-size: 18px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.latest .second .latest_books ul li a
+{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.latest .second .latest_books ul li a:hover
+{
+    font-size: 16px;
+}
+
+.latest .third
+{
+    margin-top: 15px;
+}
+
+.latest .third .latest_categories ul
+{
+    list-style-type: square;
+}
+
+.latest .third .latest_categories ul li
+{
+    font-size: 20px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+}
+.latest .third .latest_categories ul li span
+{
+    font-size: 18px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.latest .third .latest_categories ul li a
+{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.latest .third .latest_categories ul li a:hover
+{
+    font-size: 16px;
+}
+
+.latest .fourth
+{
+    margin-top: 15px;
+}
+
+.latest .fourth .latest_subcategories ul
+{
+    list-style-type: square;
+}
+
+.latest .fourth .latest_subcategories ul li
+{
+    font-size: 20px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+}
+
+.latest .fourth .latest_subcategories ul li span
+{
+    font-size: 18px;
+    color: #606060;
+    font-weight: bold;
+}
+
+.latest .fourth .latest_subcategories ul li a
+{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.latest .fourth .latest_subcategories ul li a:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Categories Rules */
+
+.categories
+{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.categories .heading
+{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.categories .category .panel .panel-heading
+{
+    background-color: #777777;
+    border-radius: 5px;
+}
+
+.categories .category .panel .panel-heading i
+{
+    font-size: 24px;
+    margin-right: 3px;
+    color: #EEE;
+}
+
+.categories .category .panel .panel-heading span
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #EEE;
+}
+
+.categories .category .panel-body
+{
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.categories .category .panel-body .media
+{
+    background-color: #EEE;
+    padding: 30px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+.categories .category .panel-body .media:hover
+{
+    background-color: #CBCBCB;
+}
+
+.categories .category .panel-body .media .media-body h4
+{
+    font-weight: bold;
+    color: #5E5E5E;
+    margin-bottom: 10px;
+}
+
+.categories .category .panel-body .media .media-body p
+{
+   display: inline;
+   font-size: 15px;
+   color: #353535;
+}
+
+.categories .category .panel-body .media a
+{
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.categories .category .panel-body .media a:hover
+{
+    font-size: 16px;
+}
+
+.categories .category .panel-body .media a i
+{
+    margin-right: 5px;
+}
+
+.categories .category .panel-body hr
+{
+    border: 1px solid #888;
+}
+
+.categories .category .panel-body hr:last-child
+{
+    display: none;
+}
+
+.categories .category a:last-child
+{
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.categories .category a:last-child:hover
+{
+    font-size: 16px;
+}
+
+.categories .category a:last-child i
+{
+    margin-right: 5px;
+}
+
+/* Starting The Category Adding Rules */
+
+.category_add .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.category_add input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.category_add input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Category Editing Rules */
+
+.category_edit .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.category_edit input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.category_edit input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Books Rules */
+
+.books
+{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.books .heading
+{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.books .book .panel .panel-heading
+{
+    background-color: #777777;
+    border-radius: 5px;
+}
+
+.books .book .panel .panel-heading i
+{
+    font-size: 24px;
+    margin-right: 3px;
+    color: #EEE;
+}
+
+.books .book .panel .panel-heading span
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #EEE;
+}
+
+.books .book .panel-body
+{
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.books .book .panel-body .media
+{
+    background-color: #EEE;
+    padding: 30px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+.books .book .panel-body .media:hover
+{
+    background-color: #CBCBCB;
+}
+
+.books .book .panel-body .media .media-body h4
+{
+    font-weight: bold;
+    color: #5E5E5E;
+    margin-bottom: 10px;
+}
+
+.books .book .panel-body .media .media-body p
+{
+   display: inline;
+   font-size: 15px;
+   color: #353535;
+}
+
+.books .book .panel-body .media a
+{
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.books .book .panel-body .media a:hover
+{
+    font-size: 16px;
+}
+
+.books .book .panel-body .media a i
+{
+    margin-right: 5px;
+}
+
+.books .book .panel-body hr
+{
+    border: 1px solid #888;
+}
+
+.books .book .panel-body hr:last-child
+{
+    display: none;
+}
+
+.books .book a:last-child
+{
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.books .book a:last-child:hover
+{
+    font-size: 16px;
+}
+
+.books .book a:last-child i
+{
+    margin-right: 5px;
+}
+
+/* Starting The Book Adding Rules */
+
+.book_add .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.book_add input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.book_add input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Book Editing Rules */
+
+.book_edit .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.book_edit input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.book_edit input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Users Rules */
+
+.users
+{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.users .heading
+{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.users .user .panel .panel-heading
+{
+    background-color: #777777;
+    border-radius: 5px;
+}
+
+.users .user .panel .panel-heading i
+{
+    font-size: 24px;
+    color: #EEE;
+    margin-right: 3px;
+}
+
+.users .user .panel .panel-heading span
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #EEE;
+}
+
+.users .user .panel-body
+{
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.users .user .panel-body .content
+{
+    background-color: #EEE;
+    padding: 50px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+.users .user .panel-body .content:hover
+{
+    background-color: #CBCBCB;
+}
+
+.users .user .panel-body h2
+{
+    font-weight: bold;
+    display: inline;
+    color: #5E5E5E;
+}
+
+.users .user .panel-body .content span
+{
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.users .user .panel-body a
+{
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.users .user .panel-body a:hover
+{
+    font-size: 16px;
+}
+
+.users .user .panel-body a i
+{
+    margin-right: 5px;
+}
+
+.users .user .panel-body hr
+{
+    border: 1px solid #888;
+}
+
+.users .user .panel-body hr:last-child
+{
+    display: none;
+}
+
+.users .user a:last-child
+{
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.users .user a:last-child:hover
+{
+    font-size: 16px;
+}
+
+.users .user a:last-child i
+{
+    margin-right: 5px;
+}
+
+/* Starting The User Adding Rules */
+
+.user_add .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.user_add input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.user_add input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The User Editing Rules */
+
+.user_edit .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.user_edit div:nth-child(7) input[type=checkbox]
+{
+    margin-top: 10px;
+}
+
+.user_edit div:nth-child(7) span
+{
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.user_edit input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.user_edit input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Sub-Categories Rules */
+
+.subcategories
+{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.subcategories .heading
+{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.subcategories .subcategory .panel .panel-heading
+{
+    background-color: #777777;
+    border-radius: 5px;
+}
+
+.subcategories .subcategory .panel .panel-heading i
+{
+    font-size: 24px;
+    margin-right: 3px;
+    color: #EEE;
+}
+
+.subcategories .subcategory .panel .panel-heading span
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #EEE;
+}
+
+.subcategories .subcategory .panel-body
+{
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.subcategories .subcategory .panel-body .media
+{
+    background-color: #EEE;
+    padding: 30px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+.subcategories .subcategory .panel-body .media:hover
+{
+    background-color: #CBCBCB;
+}
+
+.subcategories .subcategory .panel-body .media .media-body h4
+{
+    font-weight: bold;
+    color: #5E5E5E;
+    margin-bottom: 10px;
+}
+
+.subcategories .subcategory .panel-body .media .media-body p
+{
+   display: inline;
+   font-size: 15px;
+   color: #353535;
+}
+
+.subcategories .subcategory .panel-body .media a
+{
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.subcategories .subcategory .panel-body .media a:hover
+{
+    font-size: 16px;
+}
+
+.subcategories .subcategory .panel-body .media a i
+{
+    margin-right: 5px;
+}
+
+.subcategories .subcategory .panel-body hr
+{
+    border: 1px solid #888;
+}
+
+.subcategories .subcategory .panel-body hr:last-child
+{
+    display: none;
+}
+
+.subcategories .subcategory a:last-child
+{
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.subcategories .subcategory a:last-child:hover
+{
+    font-size: 16px;
+}
+
+.subcategories .subcategory a:last-child i
+{
+    margin-right: 5px;
+}
+
+/* Starting The Sub-Category Adding Rules */
+
+.subcategory_add .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.subcategory_add input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.subcategory_add input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Sub-Category Editing Rules */
+
+.subcategory_edit .heading
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.subcategory_edit input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.subcategory_edit input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Carts Rules */
+
+.carts
+{
+    margin-top: 25px;
+}
+
+.carts th, .carts td
+{
+    text-align: center;
+}
+
+.carts td a
+{
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.carts td a:hover
+{
+    font-size: 17px;
+}
+
+.carts tr:first-child
+{
+    background-color: #DDD;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.carts tr td
+{
+    font-size: 16px;
+    padding-top: 20px!important;
+}
+
+.carts tr td i
+{
+    margin-right: 5px;
+}
+
+/* Starting The Fotter Rules */
+
+.list
+{
+    margin: 50px 100px auto 100px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.list .first
+{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.list .first li
+{
+    display: inline;
+    margin: auto 22px;
+}
+
+.list .first li a
+{
+    color: #DDD;
+    font-size: 20px;
+    text-decoration-line: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    transition: all 500ms;
+}
+
+.list .first li a:hover
+{
+    color: #EEE;
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+.list .second
+{
+    list-style-type: none;
+    margin: 20px;
+}
+.list .second li
+{
+    display: inline;
+    margin: auto 10px;
+}
+
+.list .second li a
+{
+    color: #CCC;
+    font-size: 16px;
+    text-decoration-line: none;
+    transition: all 500ms;
+}
+
+.list .second li a:hover
+{
+    color: #EEE;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.list p
+{
+    color: #888;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
