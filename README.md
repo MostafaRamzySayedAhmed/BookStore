@@ -29,4 +29,4 @@ It is a Responsive Business to Customers (B2C) E-Commerce System.
 * Bootstrap
 * PHP
 * Laravel
-* MySQL
+* MySQL DB
