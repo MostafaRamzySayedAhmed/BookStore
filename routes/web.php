@@ -33,7 +33,7 @@ Route::get('/logout', 'UserController@logout');
 
 Route::get('/index', 'CategoryController@show_categories')->name('index')->middleware('guest');
 
-Route::get('/home', 'CategoryController@show_categories')->middleware('guest');;
+Route::get('/home', 'CategoryController@show_categories')->middleware('guest');
 
 Route::get('category_subcats/{category_id}', 'SubcategoryController@show_subcategories')
     ->name('category_subcategories')->middleware('guest');
