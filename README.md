@@ -30,4 +30,3 @@ It is a Responsive Business to Customers (B2C) E-Commerce System, Providing the 
 * PHP
 * Laravel
 * MySQL DB
-.
