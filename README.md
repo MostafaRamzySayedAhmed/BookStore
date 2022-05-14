@@ -3,7 +3,7 @@ It is a Responsive Business to Customers (B2C) E-Commerce System, Providing The 
 
 # The Features
 * The Responsive, Simple & Classic Design.
-* Fully Responsive Dashboard for Admins to Make All CRUD Operations on All of the System Modules
+* Fully Responsive Dashboard for Admins to Make All CRUD Operations on Modules
   **(Users, Books, Categories, Sub-Categories & Carts)**.
 * The Admin Can Control the Activation of the Users' Accounts.
 * The User Can View Books in a Simple & Highly-Organized Manner.
