@@ -18,9 +18,7 @@ It’s a Responsive Business to Customers (B2C) E-Commerce System.
 
 # The Used Technologies
 * HTML
-* HTML5
 * CSS
-* CSS3
 * Font Awesome CSS Library
 * JavaScript
 * Nice Scroll JS Plugin
