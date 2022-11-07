@@ -22,8 +22,8 @@ It’s a Responsive Business to Customers (B2C) E-Commerce System.
 * Font Awesome CSS Library
 * JavaScript
 * Nice Scroll JS Plugin
-* jQuery
 * AJAX
+* jQuery
 * Bootstrap
 * PHP
 * Laravel
