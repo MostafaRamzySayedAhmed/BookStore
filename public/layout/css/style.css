@@ -1,0 +1,973 @@
+/* Starting The General Rules */
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+ol, ul
+{
+    margin: 0px;
+}
+
+/* Starting The Navigation Rules */
+
+.navigation
+{
+    margin: auto 100px;
+    border-radius: 10px;
+    padding: auto 50px;
+    overflow: hidden;
+    transition: all 200ms;
+}
+
+.navigation-padding
+{
+    padding-bottom: 95px;
+    transition: all 500ms;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
+{
+    background-color: inherit;
+}
+.my-menu
+{
+    list-style-type: none;
+    margin: 15px 0px;
+}
+
+.my-menu a:link, .my-menu a:hover, .my-menu a:visited, .my-menu a:active
+{
+    text-decoration: none; 
+}
+
+.my-menu .dropdown .dropdown-menu
+{
+    background-color: #252525;
+    margin-top: 5px;
+}
+
+.my-menu .dropdown .dropdown-menu li a
+{
+    color: #EEE!important;
+    font-size: 16px;
+    transition: all 500ms;
+}
+
+.my-menu .dropdown .dropdown-menu li a:hover
+{
+    font-size: 18px;
+    background-color: inherit;
+}
+
+.my-menu .dropdown .dropdown-menu li a i
+{
+    color: #EEE;
+}
+
+.navigation .container
+{
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.navigation ul
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation ul li
+{
+    margin: auto 4px;
+}
+
+.navigation ul li a
+{
+    color: #888!important;
+    font-size: 16px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    transition: all 500ms;
+}
+
+.navigation ul li a:hover
+{
+    color: #DDD!important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation ul li a i
+{
+    font-size: 15px;
+    color: #EEE;
+    margin-right: 5px;
+}
+
+/* This Style Will Be Applied If The Screen Has A Maximum Width Of 991px */
+@media screen and (max-width: 768px)
+{ 
+
+.my-menu .dropdown a.dropdown-toggle
+    {
+        margin-left: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+
+.slider
+{
+    margin: 0px 100px;
+    background-image: url("../images/slider.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+/* Starting The Registration Rules */
+
+.register
+{
+    margin-top: 25px;
+}
+
+.register .heading
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.register input[type=submit]
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.register input
+{
+    margin-bottom: 15px;
+}
+
+/* Starting The login Rules */
+
+.login
+{
+    margin-top: 25px;
+}
+
+.login .heading
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.login input[type=submit]
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 500ms;
+}
+
+.login input[type=submit]:hover
+{
+    font-size: 21px;
+}
+
+.login input
+{
+    margin-bottom: 15px;
+}
+
+/* Starting The Question Rules */
+
+.question
+{
+    margin-top: 25px;
+}
+
+.question h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.question input[type=submit]
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.question input, textarea
+{
+    margin-bottom: 15px;
+}
+
+/* Starting The Contact Rules */
+
+.contact .heading
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact ul
+{
+    list-style-type: none;
+}
+
+.contact ul li
+{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact ul li i
+{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact ul li span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #464646;
+    margin-right: 7px;
+}
+
+/* Starting The About Rules */
+
+.about
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about .heading
+{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Starting The Homepage Rules */
+
+.books .book a:first-child
+{
+    margin-bottom: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.books .book a:first-child h3
+{
+    color: #585858;
+    transition: all 500ms;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.books .book a:first-child h3:hover
+{
+    font-size: 15px;
+    color: #888;
+}
+
+.books .book a:nth-child(2)
+{
+    cursor: pointer;
+}
+
+.books .book a img
+{
+    width: 130px;
+    height: 150px;
+    transition: all 500ms;
+    display: block;
+    margin: auto;
+   
+}
+
+.books .book a img:hover
+{
+    width: 150px;  
+}
+
+.books .book a:last-child
+{
+    display: block;
+    margin: 10px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.books .book a:last-child:hover
+{
+    font-size: 15px;
+}
+
+/* Starting The Book Details Rules */
+
+.details hr
+{
+    border: 1px solid #888;
+    overflow: visible;
+    margin-top: 0px;
+    position: relative;
+    bottom: 50px;
+    margin-left: 30%;
+}
+
+.book_details
+{
+    margin-bottom: 0px!important;
+    margin-left: 35%;
+    margin-right: 50%;
+}
+
+.book_details .price .dollar
+{
+    margin-left: 2px;
+    font-size: 15px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.book_details span
+{
+    font-weight: bold;
+}
+
+.book_details .login
+{
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    top: 163%;
+    margin-left: 10%;
+    color: #FFF;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.book_details .login:hover
+{
+    font-size: 25px;
+}
+
+.book_details h2
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 70px;
+    margin-left: 17%;
+}
+
+.book_details .image
+{
+    position: relative;
+    top: -245px;
+    left: 200px;
+    height: 240px;
+}
+
+/* Starting The Categories Show Rules */
+
+.show_category .first a
+{
+    text-decoration: none;
+}
+
+.show_category .first a h2
+{
+    color: #585858;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.show_category .first a h2:hover
+{
+    color: #888;
+    font-size: 24px;
+}
+
+.show_category .second img
+{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 120px;
+    transition: all 500ms;
+}
+
+.show_category .second img:hover
+{
+    width: 110px;
+    height: 130px;
+}
+
+/* Starting The Subcategories Show Rules */
+
+.show_subcategory .first a
+{
+    text-decoration: none;
+}
+
+.show_subcategory .first a h2
+{
+    color: #585858;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.show_subcategory .first a h2:hover
+{
+    color: #888;
+    font-size: 24px;
+}
+
+.show_subcategory .second img
+{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 120px;
+    transition: all 500ms;
+}
+
+.show_subcategory .second img:hover
+{
+    width: 110px;
+    height: 130px;
+}
+
+/* Starting The Books Show Rules */
+
+.show_books .first a
+{
+    text-decoration: none;
+}
+
+.show_books .first a h2
+{
+    color: #585858;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.show_books .first a h2:hover
+{
+    color: #888;
+    font-size: 24px;
+}
+
+.show_books .second img
+{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 120px;
+    transition: all 500ms;
+}
+
+.show_books .second img:hover
+{
+    width: 110px;
+    height: 130px;
+}
+
+/* Starting The Book Details Show Rules */
+
+.show_book_details
+{
+    margin: auto;
+}
+
+.show_book_details .first h2, .show_book_details .first p
+{
+    color: #585858;
+    text-align: center;
+}
+
+.show_book_details .first h2
+{
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+.show_book_details .first p
+{
+    font-size: 15px;
+}
+
+.show_book_details .first p .description, .show_book_details .first p .publisher, .show_book_details .first p .edition, .show_book_details .first p .number, .show_book_details .first p .price
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.show_book_details p .dollar
+{
+    margin-left: 2px;
+    font-size: 15px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.show_book_details .second img
+{
+    display: block;
+    margin: auto;
+    width: 115px;
+    height: 120px;
+}
+
+.show_book_details .second a
+{
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.show_book_details .second a:hover
+{
+    font-size: 15px;
+}
+
+/* Starting The Book Cart Rules */
+
+.book_cart
+{
+    margin: auto;
+}
+
+.book_cart h2, .book_cart p
+{
+    color: #585858;
+    text-align: center;
+}
+
+.book_cart h2
+{
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+.book_cart p
+{
+    font-size: 15px;
+}
+
+.book_cart p .description, .book_cart p .price, .book_cart p .subcategory, .book_cart p .category
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.book_cart p .dollar
+{
+    margin-left: 2px;
+    font-size: 15px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.book_cart input
+{
+    display: block;
+    margin: auto;
+}
+
+.book_cart input[type=number]
+{
+    margin-bottom: 10px;
+}
+
+.book_cart input[type=submit]
+{
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.book_cart input[type=submit]:hover
+{
+    font-size: 15px;
+}
+
+/* Starting The Cart Editing Rules */
+
+.cart_edit
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cart_edit .heading
+{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cart_edit input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.cart_edit input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Book Calculate Rules */
+
+.book_calculate
+{
+    margin: auto;
+}
+
+.book_calculate h2, .book_calculate p
+{
+    color: #585858;
+    text-align: center;
+}
+
+.book_calculate h2
+{
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+.book_calculate p
+{
+    font-size: 15px;
+}
+
+.book_calculate p .description, .book_calculate p .price, .book_calculate p .subcategory, .book_calculate p .category, .book_calculate .total, .book_calculate .quantity
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.book_calculate p .dollar
+{
+    margin-left: 2px;
+    font-size: 15px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.book_calculate input
+{
+    display: block;
+    margin: auto;
+}
+
+.book_calculate input[type=submit]
+{
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.book_calculate input[type=submit]:hover
+{
+    font-size: 15px;
+}
+
+/* Starting The Cart View Rules */
+
+.view_cart
+{
+    margin-top: 25px;
+}
+
+.view_cart th, .view_cart td
+{
+    text-align: center;
+}
+
+.view_cart td a, .proced
+{
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.view_cart td a:hover, .proced:hover
+{
+    font-size: 17px;
+}
+
+.view_cart tr:first-child
+{
+    background-color: #DDD;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.view_cart tr td
+{
+    font-size: 16px;
+    padding-top: 20px!important;
+}
+
+.view_cart tr td i
+{
+    margin-right: 5px;
+}
+
+/* Starting The Cart Details Rules */
+
+.cart_details
+{
+    margin-top: 25px;
+}
+
+.cart_details input
+{
+    margin-bottom: 10px;
+}
+
+.cart_details input[type=submit]
+{
+    font-size: 14px;
+    transition: all 500ms;
+    font-weight: bold;
+}
+
+.cart_details input[type=submit]:hover
+{
+    font-size: 15px;
+}
+
+.cart_details p
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Starting The Payment Options */
+
+.payment_options h3
+{
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.payment_options p a
+{
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 500ms;
+}
+
+.payment_options p a:hover
+{
+    font-size: 16px;
+}
+
+.payment_options p a i
+{
+    margin-right: 7px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+/* Starting The Profile Rules */
+
+.profile .heading
+{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile .panel
+{
+    background-color: #F9F9F9;
+}
+
+.profile .panel .panel-heading
+{
+    background-color: #6E6E6E;
+}
+
+.profile .panel .panel-heading i
+{
+    font-size: 20px;
+    margin-right: 3px;
+    color: #EEE;
+}
+
+.profile .panel .panel-heading span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #EEE;
+}
+
+.profile .panel .panel-body div
+{
+    margin-bottom: 15px;
+}
+
+.profile .panel .panel-body div:nth-child(6) input[type=checkbox]
+{
+    margin-top: 10px;
+}
+
+.profile .panel .panel-body div:nth-child(6) span
+{
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile .panel .panel-body a
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.profile .panel .panel-body a:hover
+{
+    font-size: 16px;
+}
+
+.profile .panel .panel-body a i
+{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+/* Starting The Profile Editing Rules */
+
+.profile_edit .heading
+{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile_edit div:nth-child(7) input[type=checkbox]
+{
+    margin-top: 10px;
+}
+
+.profile_edit div:nth-child(7) span
+{
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile_edit input[type=submit]
+{
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+
+.profile_edit input[type=submit]:hover
+{
+    font-size: 16px;
+}
+
+/* Starting The Fotter Rules */
+
+.list
+{
+    margin: 50px 100px auto 100px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.list .first
+{
+    list-style-type: none;
+    margin: 20px;
+}
+.list .first li
+{
+    display: inline;
+    margin: auto 22px;
+}
+
+.list .first li a
+{
+    color: #DDD;
+    font-size: 20px;
+    text-decoration-line: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    transition: all 500ms;
+}
+
+.list .first li a:hover
+{
+    color: #EEE;
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+.list .second
+{
+    list-style-type: none;
+    margin: 20px;
+}
+.list .second li
+{
+    display: inline;
+    margin: auto 10px;
+}
+
+.list .second li a
+{
+    color: #CCC;
+    font-size: 16px;
+    text-decoration-line: none;
+    transition: all 500ms;
+}
+
+.list .second li a:hover
+{
+    color: #EEE;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.list p
+{
+    color: #888;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
