@@ -1,5 +1,5 @@
 # Book Store
-It’s a Responsive Business to Customers (B2C) E-Commerce System.
+It’s a Responsive Business to Customers (B2C) E-Commerce System
 
 # The Features
 * The Responsive, Simple & Classic Design.
